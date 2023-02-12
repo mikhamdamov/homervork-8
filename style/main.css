@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #4f4f4f;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+input,
+button {
+  outline: none;
+  padding: 15px 20px;
+}
+.mar{
+    color: white;
+    margin-top: -97px;
+    font-size: 1.5rem;
+    margin-left: 200px;
+    font-weight: 900;
+    /* gap: 70px; */
+    /* margin-bottom: 150px; */
+}
+
+main-text::before {
+  content: "km";
+  position: absolute;
+  left: 500px;
+  top: 500px;
+}
+
+.hede {
+  display: none;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 500px;
+  gap: 20px;
+  color: white;
+}
+.fa {
+  display: flex;
+}
+i {
+  font-size: 50px;
+}
